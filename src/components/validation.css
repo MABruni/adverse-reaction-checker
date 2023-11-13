@@ -1,0 +1,55 @@
+.table-container {
+    display: flex;
+    background-color: rgb(231, 239, 252);
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    border: none;
+    box-shadow: 3px 3px 2px;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+.empty {
+    visibility: hidden;
+}
+
+.show {
+    animation: fadeIn 1.2s 1;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    height: 2rem;
+    border-bottom: 1px solid black;
+    background-color: rgb(119, 171, 250);
+    font-size: 1.5rem;
+}
+
+.table tr {
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+.select-button {
+    width: 50%;
+    height: 1.5rem;
+    border: none;
+    box-shadow: 2px 2px 4px;
+    border-radius: 10px;
+    background-color: rgb(226, 255, 232);
+}

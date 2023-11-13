@@ -1,0 +1,11 @@
+.App {
+  background-color:aliceblue;
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: teal;
+  height: 5%;
+}

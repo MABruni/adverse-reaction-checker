@@ -1,0 +1,106 @@
+.table-container {
+    display: flex;
+    background-color: rgb(231, 239, 252);
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 2px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.empty {
+    visibility: hidden;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    top: 0px;
+    position: sticky;
+    height: 2rem;
+    border-bottom: 1px solid black;
+    background-color: rgb(119, 171, 250);
+    font-size: 1.5rem;
+}
+
+.table tr {
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+.information {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sort-dropdown {
+    position: relative;
+    top: 35px;
+    left: 27.5%;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.drug-container {
+    display: flex;
+    width:100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.selected-drug {
+    width: auto;
+    font-size: large;
+    padding-top: 10px;
+}
+
+.selected-drug span {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.sort-button {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 2px gray;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.dropdown-icon {
+    width: auto;
+    padding-left: 10px;
+}
+
+.options {
+    position: absolute;
+    top: 30px;
+    display: block; 
+    background-color: #ffffff;
+    min-width: 100px;
+    z-index: 1;
+}
+
+.options button {
+    display: block; 
+    width: 100px;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}

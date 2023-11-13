@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    
+}
+
+.items {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.items li a {
+    text-decoration: none;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 3px;
+}
+
+.items li a:hover {
+    border-bottom: 4px solid purple;
+}
+
+
+.search {
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.results {
+    margin-left: 10px;
+    margin-right:10px;
+}
